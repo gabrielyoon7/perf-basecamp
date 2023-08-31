@@ -10800,7 +10800,7 @@ var App_update = injectStylesIntoStyleTag_default()(App/* default */.Z, App_opti
 
 
 const App_App = () => {
-    return ((0,jsx_runtime.jsxs)(BrowserRouter, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(Routes, { children: [(0,jsx_runtime.jsx)(Route, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(Route, { path: "/search", element: (0,jsx_runtime.jsx)(Search_Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
+    return ((0,jsx_runtime.jsxs)(BrowserRouter, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(Routes, { children: [(0,jsx_runtime.jsx)(Route, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(Route, { path: "/search", element: (0,jsx_runtime.jsx)(Search_Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] }));
 };
 /* harmony default export */ const src_App_0 = (App_App);
 
