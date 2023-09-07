@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 import Home from './pages/Home/Home';
 import Search from './pages/Search/Search';
@@ -10,13 +10,13 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
-      <NavBar />
+    <Router basename={'perf-basecamp'}>
+      <NavBar/>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/search" element={<Search />} />
+        <Route path="/" element={<Home/>}/>
+        <Route path="/search" element={<Search/>}/>
       </Routes>
-      <Footer />
+      <Footer/>
     </Router>
   );
 };
